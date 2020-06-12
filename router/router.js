@@ -4,7 +4,8 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
     res.status(200).json({
-        message:"Testing 123"
+        message:`Welcome, ${process.env.NAME}`,
+        location:process.env.LOCATION
     })
 })
 
