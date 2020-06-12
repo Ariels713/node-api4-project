@@ -1,6 +1,6 @@
 const express = require('express')
 const server = express()
-const port = process.env.port || 8050
+const port = process.env.PORT|| 8050
 // const morgan = require('morgan')
 const router = require('./router/router')
 
